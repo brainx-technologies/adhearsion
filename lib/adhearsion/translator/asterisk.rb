@@ -83,7 +83,7 @@ module Adhearsion
 
         if event.name == 'FullyBooted'
           handle_pb_event Adhearsion::Rayo::Connection::Connected.new
-          run_at_fully_booted
+          #run_at_fully_booted
           return
         end
 
